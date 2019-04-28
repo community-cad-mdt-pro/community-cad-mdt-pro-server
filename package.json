@@ -1,0 +1,49 @@
+{
+  "name": "opencad-react-server",
+  "description": "OpenCAD React Server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "nodemon --exec babel-node ./src/index.js",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rswyatt/opencad-react-server.git"
+  },
+  "keywords": [
+    "OpenCAD",
+    "ReactJS",
+    "OpenCAD",
+    "ReactJS",
+    "Server",
+    "server",
+    "node"
+  ],
+  "author": "Rich S Wyatt <rich.wyatt@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rswyatt/opencad-react-server/issues"
+  },
+  "homepage": "https://github.com/rswyatt/opencad-react-server#readme",
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.3",
+    "@phc/pbkdf2": "^1.1.14",
+    "config": "^3.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "hapi": "^18.1.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "upash": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.18.11"
+  }
+}
