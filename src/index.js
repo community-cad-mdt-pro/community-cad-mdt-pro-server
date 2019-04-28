@@ -4,7 +4,7 @@ import config from 'config';
 import * as Users from './controllers/users';
 
 const server = new Hapi.Server({
-    port: 9998,
+    port: config.port,
     host: config.host,
     'routes': {
         'cors': true
