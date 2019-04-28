@@ -1,6 +1,9 @@
 # opencad-react-server
 OpenCAD React Server
 
+## Requirements
+Requires Node >= 8
+
 ## Installation
 
      $ npm ci
