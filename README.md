@@ -1,15 +1,15 @@
-# opencad-react-server
-OpenCAD React Server
+# Community CAD/MDT Pro - Server
+This is the `NodeJS` back-end server for [Community CAD/MDT Pro](https://github.com/community-cad-mdt-pro/community-cad-mdt-pro-client). The client is required for the UI.
 
 ## Requirements
-Requires Node >= 8
+Requires `Node >= 8`
 
 ## Installation
 
      $ npm ci
 
 ## Running Locally
-This project is the `server` for the OpenCAD React Client.
+This project is the `server` for the `Community CAD/MDT Pro`.
 
 * `npm run start`
 * This will start the server on `localhost:9998`
